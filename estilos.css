@@ -37,3 +37,47 @@ p{
 	font-size: 16px;
 	font-weight: bold;
 }
+
+.contenedor-flex{
+	border-style: solid;
+	width: 600px; 
+	height: 600px;
+	display: flex;           
+	flex-flow: column wrap;            
+	align-content: flex-end;
+}
+
+.contenedor-flex2{
+	border-style: solid;
+	width: 600px; 
+	height: 600px;
+	display: flex;     
+	flex-direction: row-reverse;	         
+	align-items: center;
+	justify-content: center;
+}
+
+.contenedor-flex3{
+	border-style: solid;	
+	height: 200px;
+	display: flex;     
+	flex-direction: row;	         
+	justify-content: space-between;	
+}
+
+.caja{
+	width: 200px; 
+	height: 200px
+}
+
+#roja{
+	background-color: red;
+}
+
+#azul{
+	background-color: blue;
+}
+
+#verde{
+	background-color: green;
+}
